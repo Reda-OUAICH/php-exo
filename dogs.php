@@ -1,13 +1,17 @@
 <?php
+require 'array.php';
 include 'header.php';
+$page = $datas[$_GET['page'] ?? "dogs"];
 ?>
 
-<div class="container theme-showcase" role="main">
-    <div class="jumbotron">
-        <h1>Dogs</h1>
-        <p>ROGER HELP ME</p>
-        <span class="label label-danger">NANIIII??</span>
+    <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+            <h1><?php echo $page["title"]?> </h1>
+            <p><?php echo $page["content"]?></p>
+            <span class="<?php echo $page["span"]?>"><?php echo $page["spanContent"]?></span>
+        </div>
+        <img class="img-thumbnail" alt="<?php echo $page["image"]["alt"]?>" src="<?php echo $page["image"]["link"]?>" data-holder-rendered="true">
     </div>
-    <img class="img-thumbnail" alt="dog" src="http://cdn3.list25.com/wp-content/uploads/2015/02/pic-16-610x428.jpg" data-holder-rendered="true">
-</div>
-
+<?php
+include 'footer.php';
+?>
