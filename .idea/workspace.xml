@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f65e1d3-9368-46f8-8109-0ca9347bac59" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/array.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/footer.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dogs.php" afterPath="$PROJECT_DIR$/dogs.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change beforePath="$PROJECT_DIR$/ironmaiden.php" afterPath="$PROJECT_DIR$/ironmaiden.php" />
-      <change beforePath="$PROJECT_DIR$/kittens.php" afterPath="$PROJECT_DIR$/kittens.php" />
-    </list>
+    <list default="true" id="8f65e1d3-9368-46f8-8109-0ca9347bac59" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11988000" />
+    <option name="totallyTimeSpent" value="12206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
